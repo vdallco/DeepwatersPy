@@ -25,3 +25,9 @@ dc = DeepwatersClient(goerliRPCHttp, private_key, addr)
 swapResult = dc.swap(baseAsset, quoteAsset, swapSide, swapType, swapDuration, quantity, price)
 print(swapResult)
 ```
+
+# Example results
+
+```
+{'data': {'submitOrder': {'order': {'status': 'ACTIVE', 'venueOrderID': '....', '__typename': 'Order'}, '__typename': 'SubmitOrderResponse'}}}
+```
